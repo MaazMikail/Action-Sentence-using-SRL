@@ -1,7 +1,6 @@
 # Uses BERT language modeling to score sentences and then select the one 
 # with the minimum loss. 
 
-
 from pytorch_pretrained_bert import BertTokenizer,BertForMaskedLM
 import torch
 from sentence_formula import action_sent
